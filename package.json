@@ -1,0 +1,22 @@
+{
+  "name": "conversao-audio",
+  "version": "1.0.0",
+  "description": "API para conversão de áudio usando Node.js e Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "ffmpeg",
+    "audio"
+  ],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "ffmpeg-static": "^4.4.0"
+  }
+}
